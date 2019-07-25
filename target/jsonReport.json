@@ -1,0 +1,215 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "start_timestamp": "2019-07-25T06:21:23.540Z",
+        "line": 15,
+        "name": "validate login functionality",
+        "description": "",
+        "id": "testme-application;validate-login-functionality;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 28869701100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click the sign in button",
+            "match": {
+              "location": "testmeapp3.click_the_sign_in_button()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 217292600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "enter the gayathri",
+            "match": {
+              "arguments": [
+                {
+                  "val": "gayathri",
+                  "offset": 10
+                }
+              ],
+              "location": "testmeapp3.enter_the(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 167305500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "gayu21 to be entered",
+            "match": {
+              "arguments": [
+                {
+                  "val": "gayu21",
+                  "offset": 0
+                }
+              ],
+              "location": "testmeapp3.to_be_entered(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 549956200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "login to testme application",
+            "match": {
+              "location": "testmeapp3.login_to_testme_application()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 394402000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "search for headphone",
+            "match": {
+              "arguments": [
+                {
+                  "val": "headphone",
+                  "offset": 11
+                }
+              ],
+              "location": "testmeapp3.search_for(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 677521400,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "click find details",
+            "match": {
+              "location": "testmeapp3.click_find_details()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2019-07-25T06:21:54.462Z",
+        "line": 16,
+        "name": "validate login functionality",
+        "description": "",
+        "id": "testme-application;validate-login-functionality;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 21594434100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "click the sign in button",
+            "match": {
+              "location": "testmeapp3.click_the_sign_in_button()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 387237100,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "enter the sathiya",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sathiya",
+                  "offset": 10
+                }
+              ],
+              "location": "testmeapp3.enter_the(String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 252518300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "sathu19 to be entered",
+            "match": {
+              "arguments": [
+                {
+                  "val": "sathu19",
+                  "offset": 0
+                }
+              ],
+              "location": "testmeapp3.to_be_entered(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 340773700,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "login to testme application",
+            "match": {
+              "location": "testmeapp3.login_to_testme_application()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 483601300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "search for carpet",
+            "match": {
+              "arguments": [
+                {
+                  "val": "carpet",
+                  "offset": 11
+                }
+              ],
+              "location": "testmeapp3.search_for(String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 709646300,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "click find details",
+            "match": {
+              "location": "testmeapp3.click_find_details()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "TestMe application",
+    "description": "Test the TestMeApp in the cucumber",
+    "id": "testme-application",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/case3/testmeapp3.feature",
+    "tags": []
+  }
+]
